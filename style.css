@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Baskervville SC", serif;
+    background-color: rgba(28, 26, 26, 0.905);
+}
+#container{
+    width: 100%;
+    height:100vh ;
+    position: relative;
+    
+}
+    
+
+    
+
+#navabar1{
+    display:flex ;
+    width:85% ;
+    margin-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo1{
+    width: 100px;
+}
+#logo2{
+    width: 50px;
+}
+.listitem{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+.listitem{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+.listitem a{
+    color:white;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.listitem a:hover{
+    color:red;
+}
+#title{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+#title h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+} 
+#title p{
+    margin: bottom 30px;
+}
+#lastname{
+    color:white;
+}
+#mm1
+{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin: 10px 60px;
+    text-decoration: none;
+    
+}
+#mm1:hover{
+    color: red;
+}
+#kfc1
+{
+    color: rgb(255, 0, 0);
+}
+#color5
+{
+    color: red;
+}
+#sen
+{
+    color: red;
+}
+#ken{
+    color:white;
+}
+#about{
+    margin: 4% 8% 0% 5%;
+}
+#contact{
+        margin: 4% 8% 0% 5%;}
+#heading{
+    text-align: center;
+}
+.work{
+    height: 500px;
+    width: 300px;
+    float: left;
+    padding: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.work1{
+    height: 500px;
+    width: 300px;
+    float: left;
+    padding: 45px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+#heading
+{text-align: center;
+color: white;
+}
+
+#icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    color: white;
+}
+.icon, #up-arrow {
+    width: 50px;
+    height: 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px 20px;
+    border-radius: 50px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(212, 24, 24),rgb(233, 166, 41));
+}
+.icon a{
+    color: rgb(208, 24, 24);
+    }
+    .icon:hover a{
+        color: black;
+    }
+    
+.icon:hover i{
+    animation: shake 0.75s;
+    color: white;
+}
+@keyframes shake{
+    10%{
+       transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+
+footer{
+    padding: 4rem 0;
+}
+footer p{
+    text-align: center; 
+    font-weight: 800;
+}
+#up-arrow{
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255),rgb(0, 0, 0));   
+    float: right;
+}
+#up-arrow:hover a{
+    color: white;
+}
